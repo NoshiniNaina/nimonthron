@@ -26,11 +26,11 @@ const Navbar = ({toggle}) => {
             <NavLink to='/services' >
               Services
             </NavLink>
-            <NavLink to='/contact-us' >
-              Contact Us
-            </NavLink>
             <NavLink to='/sign-up' >
               Sign Up
+            </NavLink>
+            <NavLink to='/contact-us' >
+              Contact Us
             </NavLink>
           
           </NavMenu>
