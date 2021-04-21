@@ -19,7 +19,7 @@ const Sidebar = () => {
         <Input type="email" placeholder="Email" />
         <Input type="password" placeholder="Password" />
         <Input type="password" placeholder="Confrim Password" />
-        <button onClick={ this.signUp }>Sign Up</button>
+        <button >Sign Up</button>
       </Form>
       <div>
         <Terms>
@@ -27,7 +27,7 @@ const Sidebar = () => {
           Service
         </Terms>
         <h4>
-          Already have an account? <span onClick={ this.signIn }>Sign In</span>
+          Already have an account? <span >Sign In</span>
         </h4>
       </div>
     </Container>

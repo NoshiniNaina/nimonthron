@@ -1,8 +1,8 @@
 import React from 'react';
 import Icon1 from '../../images/one.jpg';
-import Icon2 from '../../images/one.jpg';
-import Icon3 from '../../images/one.jpg';
-import Icon4 from '../../images/one.jpg';
+import Icon2 from '../../images/food.jpg';
+import Icon3 from '../../images/photot.jpg';
+import Icon4 from '../../images/event.jpeg';
 import {ServicesContainer,ServicesH1,ServicesH2,ServicesWrapper,
     ServicesCard,ServicesIcon} from './ServicesElements';
 const Servicesa = () => {
@@ -24,7 +24,7 @@ const Servicesa = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
-                    <ServicesH2>Photographer</ServicesH2>
+                    <ServicesH2>Event planner</ServicesH2>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
