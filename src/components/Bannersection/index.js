@@ -1,8 +1,8 @@
-
 import React,{useState} from 'react'
-import {Button} from '../ButtonElements';
+import {ButtonLink} from '../ButtonElements';
 import Video from '../../videos/video.mp4'
-import {BannerContainer,Bannerbg,VideoBg,Bannercontent,Bannerh1,Bannerp,BannerBtnWrapper,ArrowForward,ArrowRight} from './Bannerelements'
+import {BannerContainer,Bannerbg,VideoBg,Bannercontent,Bannerh1,Bannerp,
+    BannerBtnWrapper,ArrowForward,ArrowRight} from './Bannerelements'
 const BannerSection = () => {
     const [hover,sethover]= useState(false)
     
@@ -17,9 +17,9 @@ const BannerSection = () => {
                 <Bannerh1>Make Events More Beautiful</Bannerh1>
                 <Bannerp>Sign up today and get best services for events!!</Bannerp>
                 <BannerBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <ButtonLink to='/signup'  onMouseEnter={onHover} onMouseLeave={onHover}>
                         Get started {hover? <ArrowForward /> : <ArrowRight/> }
-                    </Button>
+                    </ButtonLink>
                 </BannerBtnWrapper>
             </Bannercontent>
        </BannerContainer>

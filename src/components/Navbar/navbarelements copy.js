@@ -1,12 +1,12 @@
 import { FaBars } from 'react-icons/fa';
-import { NavLink as LinkR } from 'react-router-dom';
-
+//import { NavLink as LinkR } from 'react-router-dom';
+import {Link as LinkR} from "react-router-dom"
+//import {Link as LinkS} from 'react-scroll'
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
     background: red ;
     height: 60px;
-    
     display:flex;
     justify-content:center;
     align-items: center;
@@ -87,7 +87,7 @@ export const NavMenu = styled.div`
   list-style: none;
   text-align:center;
   margin-right: -524px;
-  cursor: pointer;
+   cursor: pointer;
   @media screen and (max-width: 768px) {
     display: none;
   }
