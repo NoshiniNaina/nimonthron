@@ -48,3 +48,8 @@ export const ContainerB=styled.div `
     justify-content: center;
     align-items: center;
 `
+export const ContainerC=styled.div `
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+`

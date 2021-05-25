@@ -1,8 +1,9 @@
 import React from 'react'
 import { Component } from 'react';
-import {Page,Container,Imgholder,Img,Label,ContainerB} from './style';
+import {Page,Container,Imgholder,Img,Label,ContainerB,ContainerC} from './style';
 import './profile.css';
 import { AddProducts } from './AddProducts';
+import { Products } from '../servicepage/Products';
 export class Profile extends Component   {
     
    state={
@@ -42,8 +43,11 @@ export class Profile extends Component   {
                             </div>
                         </div>
                     </ContainerB>
+                    
                 </Page>
-                
+                <ContainerC>
+                    <Products/>
+                </ContainerC>
             </>
         )
     }
